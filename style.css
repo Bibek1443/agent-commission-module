@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+}
+
+body{
+  padding: 0px 50px;
+}
+
+
+header{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding:60px 0px 30px 0px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+  font-size: 13px;
+
+}
+
+th{
+  background-color: #0976BA;
+  color: white;
+}
+
+
+#direct-commission h3{
+  padding-top: 30px;
+}
+
+#direct-commission tr th,td{
+  font-size: 13px;
+}
+
+.name{
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+
+
+
+/***** TERMED SECTION STARTS *****/
+
+#termed{
+  padding-top: 100px;
+}
+
+#termed h3{
+  padding-bottom: 30px;
+}
+  /***** TERMED SECTION ENDS *****/
+
+
+
+
+
+
+  /***** REFUNDED SECTION STARTS *****/
+
+  #refunded{
+    padding-top: 100px;
+  }
+
+  #refunded h3{
+    padding-bottom: 30px;
+  }
+  /***** REFUNDED SECTION ENDS *****/
+
+
+
+
+  
+  /***** ADJUSTMENTS SECTION STARTS *****/
+
+  #adjustments{
+    padding-top: 100px;
+  }
+
+  #adjustments h3{
+    padding-bottom: 30px;
+  }
+  /***** ADJUSTMENTS SECTION ENDS *****/
